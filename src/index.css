@@ -1,0 +1,127 @@
+.body {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    box-shadow: 5px 2px #888888;
+    padding: 5px;
+    align-items: center;
+}
+
+.header img {
+    width: 100px;
+    height: 60px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.header input {
+    border-radius: 40px 0px 0px 40px;
+    width: 600px;
+    height: 30px;
+}
+
+.header button {
+    border-radius: 0px 40px 40px 0px;
+    height: 36px;
+    width: 40px;
+    border-left: none;
+    cursor: pointer;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* card */
+.videocontainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+.videocontainer a{
+  text-decoration: none;
+  color: black;
+}
+.videocard {
+    padding: 25px 10px;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    text-decoration: none;
+}
+.videocard :hover{
+    text-decoration: none;
+}
+.videocard img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.videocard img:hover{
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.searchResult {
+    position: fixed;
+    border-radius: 10px;
+    width: 600px;
+    background: white;
+    z-index: 1;
+}
+.searchResult li{
+    padding: 2px;
+    margin: 2px;
+    list-style-type: none;
+}
+.searchResult li:hover{
+   cursor: pointer;
+   background-color: #d3d3d3;
+}
+
+/* main container */
+.mainContainerButtons {
+    padding: 5px 10px;
+    margin: 2px;
+    background-color: rgba(0,0,0,0.05);
+    border: none;
+    border-radius: 5px;
+    height: 32px;
+}
+.maincontainer {
+    display: flex;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+.maincontainer :hover {
+    cursor: pointer;
+}
+
+/* watch container */
+
+.watchContainer {
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 10px;
+    transform: translate(-50%, 0%);
+    left: 50%;
+    position: absolute;
+    padding: 10px; */
+}
+
+
+/* comments container */
+.commentsContainer{
+    padding: 10px;
+}
+.comments {
+    padding: 5px;
+    margin: 5px;
+}
